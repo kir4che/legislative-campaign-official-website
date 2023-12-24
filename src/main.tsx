@@ -5,7 +5,7 @@ import App from './App.tsx';
 import './style.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename="/work/legislative-campaign-official-website">
+  <BrowserRouter basename="/work/legislative-campaign-official-website/">
     <App />
   </BrowserRouter>
 
