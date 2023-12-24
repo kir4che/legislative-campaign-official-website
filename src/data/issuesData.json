@@ -1,17 +1,17 @@
 [
   {
     "title": "為毛孩子謀福利！\n推動寵物醫療保障方案",
-    "imageUrl": "../public/assets/images/issue-1.png",
+    "imageUrl": "public/assets/images/issue-1.png",
     "content":"設立寵物醫療基金\n每年撥款新台幣 10 億元，專款專用於支援家庭寵物的醫療費用\n\n提供醫療補助\n每隻寵物每年可獲得高達新台幣 20,000 元的醫療補助，減輕飼主的經濟壓力\n\n合作動物醫院\n目前已有和超過 200 家動物醫院進行初步的合作討論"
   },
   {
     "title": "打造休閒天堂！\n推廣寵物休閒與娛樂場所",
-    "imageUrl": "../public/assets/images/issue-2.png",
+    "imageUrl": "public/assets/images/issue-2.png",
     "content":""
   },
   {
     "title": "推廣寵物飼養教育！\n讓愛更加專業",
-    "imageUrl": "../public/assets/images/issue-3.png",
+    "imageUrl": "public/assets/images/issue-3.png",
     "content":""
   }
 ]

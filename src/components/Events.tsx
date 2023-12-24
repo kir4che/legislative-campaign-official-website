@@ -10,7 +10,7 @@ const Events: React.FC = () => {
       <h1 className='text-5.5xl lg:text-6xl text-center gradient-text'>最新活動</h1>
       <article className='flex flex-col justify-center gap-6 mt-10 lg:flex-row lg:mt-16'>
         <div className='flex flex-col justify-between'>
-          <img src="../public/assets/images/event-1.jpeg" alt="event1" className='object-cover w-full h-[480px] rounded-2xl' />
+          <img src="public/assets/images/event-1.jpeg" alt="event1" className='object-cover w-full h-[480px] rounded-2xl' />
           <div className='mt-4'>
             <p className='text-sm text-slate-500'>2023/12/26</p>
             <Dialog.Root>
@@ -25,7 +25,7 @@ const Events: React.FC = () => {
                   </Dialog.Title>
                   <article className='flex flex-col gap-8 lg:flex-row'>
                     <section>
-                      <img src="../public/assets/images/event-1.jpeg" alt="event1" className='object-cover w-full lg:min-w-[450px] h-[450px] lg:h-80 rounded-2xl' />
+                      <img src="public/assets/images/event-1.jpeg" alt="event1" className='object-cover w-full lg:min-w-[450px] h-[450px] lg:h-80 rounded-2xl' />
                       <p className='mt-4 mb-2 text-sm'>參與台北寵物論壇，爭取貓咪友善環境</p>
                       <div className='flex items-center space-x-4'>
                         <p>分享</p>
@@ -60,11 +60,11 @@ const Events: React.FC = () => {
                         <p className='mb-4 font-semibold'>更多活動</p>
                         <div className='flex space-x-4'>
                           <div className='space-y-3 w-60'>
-                            <img src="../public/assets/images/event-2.jpeg" alt="event2" className='object-cover w-64 h-36 rounded-2xl' />
+                            <img src="public/assets/images/event-2.jpeg" alt="event2" className='object-cover w-64 h-36 rounded-2xl' />
                             <p>掃街模式開啟！帶著你的貓耳，來和我一起走！</p>
                           </div>
                           <div className='space-y-3 w-60'>
-                            <img src="../public/assets/images/event-3.jpeg" alt="event3" className='object-cover w-64 h-36 rounded-2xl' />
+                            <img src="public/assets/images/event-3.jpeg" alt="event3" className='object-cover w-64 h-36 rounded-2xl' />
                             <p>收容所模特兒大比拼！</p>
                           </div>
                         </div>
