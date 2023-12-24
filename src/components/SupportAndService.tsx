@@ -4,18 +4,15 @@ import { Cross2Icon } from '@radix-ui/react-icons';
 import { useState } from 'react';
 
 const SupportAndService: React.FC = () => {
-  const [selectedPlan, setSelectedPlan] = useState(null)
-  const [isDonated, setIsDonated] = useState(false)
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [selectedPlan, setSelectedPlan] = useState<number>(0);
+  const [isDonated, setIsDonated] = useState<boolean>(false);
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
 
-  const handleDonate = () => {
-    selectedPlan === null ? alert('請選擇捐款方案！') :
-      setIsDonated(true)
-  }
+  const handleDonate = () => setIsDonated(true)
 
   const handleDonateClose = () => {
     setIsDonated(false)
-    setSelectedPlan(null)
+    setSelectedPlan(0)
   }
 
   return (

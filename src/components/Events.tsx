@@ -120,7 +120,7 @@ const Events: React.FC = () => {
                                 <p className='mb-4 font-semibold'>更多活動</p>
                                 <div className='flex space-x-4'>
                                   {eventsData
-                                    .filter((otherEvent, otherIndex) => otherIndex !== index)
+                                    .filter((_otherEvent, otherIndex) => otherIndex !== index)
                                     .map((otherEvent, otherIndex) => (
                                       <div key={otherIndex} className='space-y-3 w-60'>
                                         <img src={otherEvent.imageUrl} alt={`event${otherIndex + 2}`} className='object-cover w-64 h-36 rounded-2xl' />

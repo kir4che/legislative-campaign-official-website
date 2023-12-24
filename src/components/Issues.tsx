@@ -5,7 +5,7 @@ import issuesData from '../data/issuesData.json';
 
 
 const Issues: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState<boolean>(false)
 
   return (
     <article id="issue" className='py-16 lg:py-26 '>
@@ -55,7 +55,7 @@ const Issues: React.FC = () => {
                           <p className='mb-4 font-semibold'>更多政策議題</p>
                           <div className='flex space-x-4'>
                             {issuesData
-                              .filter((otherIssue, otherIndex) => otherIndex !== index)
+                              .filter((_otherIssue, otherIndex) => otherIndex !== index)
                               .map((otherIssue, otherIndex) => (
                                 <div className='space-y-3 w-60' key={otherIndex}>
                                   <img src={otherIssue.imageUrl} alt={`event${otherIndex + 2}`} className='object-cover w-64 h-36 rounded-2xl' />
