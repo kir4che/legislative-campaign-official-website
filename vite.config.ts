@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: '/work/legislative-campaign-official-website/',
+	base: '/legislative-campaign-official-website/',
 })
