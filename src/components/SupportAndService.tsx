@@ -41,12 +41,12 @@ const SupportAndService: React.FC = () => {
                     <h1 className='font-bold leading-tight text-primary-color'>您的小筆捐款<br />是每隻毛孩未來的大大動力！</h1>
                     <p className='mt-4 mb-1'>目前小額贊助總金額</p>
                     <h2 className='font-bold'>987,655,873</h2>
-                    <img src="public/assets/images/small-donation.png" alt="small-donation" className='w-56 mx-auto' />
+                    <img src="assets/images/small-donation.png" alt="small-donation" className='w-56 mx-auto' />
                   </section>
                   {isDonated ? (
                     <section className='flex flex-col items-center justify-center w-11/12 space-y-8'>
                       <h3 className='font-bold'>感謝您的捐款</h3>
-                      <img src="public/assets/images/Group 15.png" alt="success" className='w-56' />
+                      <img src="assets/images/Group 15.png" alt="success" className='w-56' />
                       <Dialog.Close>
                         <button className='w-56 py-3 font-semibold rounded-full bg-slate-100 hover:bg-slate-200' onClick={handleDonateClose}>關閉</button>
                       </Dialog.Close>
@@ -87,7 +87,7 @@ const SupportAndService: React.FC = () => {
               </Dialog.Content>
             </Dialog.Portal>
           </Dialog.Root>
-          {/* <img src="public/assets/images/small-donation.png" alt="small-donation" className='w-32 xl:w-56' /> */}
+          {/* <img src="assets/images/small-donation.png" alt="small-donation" className='w-32 xl:w-56' /> */}
         </div>
       </div>
       <div id="service" className='bg-text-color sm:w-[640px] h-[80vw] sm:h-[38vw] lg:h-[36vw] flex flex-col justify-between px-12 py-16 sm:px-6 sm:py-10 lg:px-12 lg:py-16 xl:px-16 xl:py-20 rounded-3xl'>
@@ -112,13 +112,13 @@ const SupportAndService: React.FC = () => {
                 <article className='flex flex-col gap-10 lg:flex-row'>
                   <section className='w-full rounded-4xl bg-sky-100'>
                     <h1 className='px-10 pt-10 pb-4 font-bold leading-tight lg:pt-14 lg:px-14'>分享您的想法<br />一同為我們的未來打造更美好！</h1>
-                    <img src="public/assets/images/image 10.png" alt="small-donation" className='w-full mx-auto' />
+                    <img src="assets/images/image 10.png" alt="small-donation" className='w-full mx-auto' />
                   </section>
                   {
                     isSubmitted ? (
                       <section className='flex flex-col items-center justify-center w-11/12 space-y-8'>
                         <h3 className='font-bold'>感謝您的意見</h3>
-                        <img src="public/assets/images/Group 15.png" alt="success" className='w-56' />
+                        <img src="assets/images/Group 15.png" alt="success" className='w-56' />
                         <Dialog.Close>
                           <button className='w-56 py-3 font-semibold rounded-full bg-slate-100 hover:bg-slate-200' onClick={() => setIsSubmitted(false)}>關閉</button>
                         </Dialog.Close>

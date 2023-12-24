@@ -2,7 +2,7 @@ const Header: React.FC = () => {
   return (
     <header className="flex flex-wrap items-center justify-between px-[3.4vw] py-6 mx-auto ">
       <a href='/' className="flex items-center space-x-2">
-        <img src="public/assets/logo.png" alt="logo" />
+        <img src="assets/logo.png" alt="logo" />
         <span className='text-2xl font-bold text-primary-color'>喵立翰 Miao Li-Han</span>
       </a>
       <nav className="flex-wrap items-center justify-center hidden ml-auto mr-auto space-x-6 lg:flex">
