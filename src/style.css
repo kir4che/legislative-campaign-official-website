@@ -12,7 +12,7 @@
 		scroll-behavior: smooth;
 	}
 	body {
-		@apply text-lg text-text-color overflow-x-clip;
+		@apply text-lg text-text-color;
 	}
 	h1 {
 		@apply text-4xl;

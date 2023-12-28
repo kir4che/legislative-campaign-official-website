@@ -14,7 +14,7 @@ const Banner: React.FC = () => {
         </div>
       </div>
       <img src="assets/images/banner.png" alt="advocate" className='w-[497.5px] md:w-[556px] lg:w-[552px] mx-auto' />
-      <div className='space-x-6 text-white bg-primary-color px-3.5 whitespace-nowrap'>
+      <div className='space-x-6 text-white bg-primary-color px-3.5 whitespace-nowrap overflow-x-hidden'>
         <span className='text-6xl leading-none font-MantouSans'>為喵星人，護台灣！</span>
         <span className='text-6xl leading-none font-MantouSans'>從喵的眼中，看見台灣</span>
         <span className='text-6xl leading-none font-MantouSans'>喵的未來，人的希望</span>
